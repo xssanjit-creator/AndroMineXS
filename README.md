@@ -1,47 +1,55 @@
-<H1 align="center">MojoLauncher (a.k.a. MJLauncher)</H1>
+<H1 align="center">ObsidianLauncher (a.k.a. OBLauncher)</H1>
 
-<a href="./README_RU.md">Readme на русском</a>
+<a href="./README_HI.md">Readme in Hindi</a>
 
-<img src="./app_pojavlauncher/src/main/assets/pojavlauncher.png" align="left" width="150" height="150" alt="MojoLauncher logo">
+<img src="./app_obsidianlauncher/src/main/assets/obsidian_logo.png" align="left" width="150" height="150" alt="ObsidianLauncher logo">
 
-[![Android CI](https://github.com/MojoLauncher/MojoLauncher/workflows/Android%20CI/badge.svg)](https://github.com/MojoLauncher/MojoLauncher/actions)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/MojoLauncher/MojoLauncher)](https://github.com/MojoLauncher/MojoLauncher/actions)
+[![Android CI](https://github.com/ObsidianLauncher/ObsidianLauncher/workflows/Android%20CI/badge.svg)](https://github.com/ObsidianLauncher/ObsidianLauncher/actions)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/ObsidianLauncher/ObsidianLauncher)](https://github.com/ObsidianLauncher/ObsidianLauncher/actions)
 [![Discord](https://img.shields.io/discord/1365346109131722753.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/VHdwQFsaGX)
 
-* MojoLauncher is a launcher, based on [PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher), that allows you to play Minecraft: Java Edition on your Android device!
+* ObsidianLauncher is a launcher, based on [PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher), that allows you to play Minecraft: Java Edition on your Android device!
 
-* It can run almost every version of Minecraft, allowing you to use .jar only installers to install modloaders such as [Forge](https://files.minecraftforge.net/) and [Fabric](http://fabricmc.net/) and mods like [OptiFine](https://optifine.net).
+* It can run almost every version of Minecraft, allowing you to use `.jar` installers to install modloaders such as [Forge](https://files.minecraftforge.net/) and [Fabric](http://fabricmc.net/) and mods like [OptiFine](https://optifine.net).
+
+---
 
 ## Navigation
 - [Introduction](#introduction)
-- [Getting MojoLauncher](#getting-mojolauncher)
-- [Building](#building) 
-- [Current roadmap](#current-roadmap) 
-- [License](#license) 
-- [Contributing](#contributing) 
+- [Getting ObsidianLauncher](#getting-obsidianlauncher)
+- [Building](#building)
+- [Current roadmap](#current-roadmap)
+- [License](#license)
+- [Contributing](#contributing)
 - [Credits & Third party components and their licenses](#credits--third-party-components-and-their-licenses-if-available)
 
-## Introduction 
-* MojoLauncher is a Minecraft: Java Edition launcher for Android based on [PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher)
-* This launcher can launch almost all available Minecraft versions ranging from rd-132211 to 26.x snapshots (including Combat Test versions). 
-* Modding via Forge and Fabric are also supported. 
+---
 
-## Getting MojoLauncher
+## Introduction
+* ObsidianLauncher is a Minecraft: Java Edition launcher for Android based on [PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher).
+* This launcher can launch almost all available Minecraft versions ranging from rd-132211 to 1.21 snapshots (including Combat Test versions).
+* Modding via Forge and Fabric are also supported.
+* Redesigned UI and new icons give it a modern, dark‑theme look inspired by the Obsidian block.
 
-You can get MojoLauncher via four methods:
+---
 
-1. You can get the prebuilt app from the [releases section](http://github.com/mojolauncher/mojolauncher/releases).
+## Getting ObsidianLauncher
+You can get ObsidianLauncher via four methods:
 
-2. You can get it from Google Play by clicking on this badge:
-[![Google Play](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=git.artdeell.mjlaunch)
+1. Download the prebuilt app from the [releases section](https://github.com/ObsidianLauncher/ObsidianLauncher/releases).
+2. Get it from Google Play:  
+   [![Google Play](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=com.obsidian.launcher)
+3. Get early builds from [GitHub Actions](https://github.com/ObsidianLauncher/ObsidianLauncher/actions).
+4. Or [build](#building) from source.
 
-3. You can get early builds from [Github Actions](http://github.com/mojolauncher/mojolauncher/actions).
+---
 
-4. You can [build](#building) from source.
-## Building   
-* Build the launcher (it will automatically download all required components)
-```
-./gradlew :app_pojavlauncher:assembleDebug
+## Building
+Build the launcher (it will automatically download all required components):
+
+```bash
+./gradlew :app_obsidianlauncher:assembleDebug
+
 ```
 (Replace `./gradlew` with `.\gradlew.bat` if you are building on Windows).
 

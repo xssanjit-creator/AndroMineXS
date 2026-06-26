@@ -1,8 +1,8 @@
 <H1 align="center">ObsidianLauncher (a.k.a. OBLauncher)</H1>
 
-<a href="./README_HI.md">Readme in Hindi</a>
+<a href="./README_HI.md">Readme</a>
 
-<img src="./app_obsidianlauncher/src/main/assets/obsidian_logo.png" align="left" width="150" height="150" alt="ObsidianLauncher logo">
+<img src="./app_pojavlauncher/src/main/assets/obsidian_logo.png" align="left" width="150" height="150" alt="ObsidianLauncher logo">
 
 [![Android CI](https://github.com/ObsidianLauncher/ObsidianLauncher/workflows/Android%20CI/badge.svg)](https://github.com/ObsidianLauncher/ObsidianLauncher/actions)
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/ObsidianLauncher/ObsidianLauncher)](https://github.com/ObsidianLauncher/ObsidianLauncher/actions)

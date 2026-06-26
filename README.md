@@ -2,10 +2,11 @@
 
 <a href="./README_HI.md">Readme</a>
 
-<img src="./app_pojavlauncher/src/main/assets/obsidian_logo.png" align="left" width="150" height="150" alt="pojavlauncher logo">
+<img src="./app_pojavlauncher/src/main/assets/AndroMineXS
+_logo.png" align="left" width="150" height="150" alt="pojavlauncher logo">
 
-[![Android CI](https://github.com/ObsidianLauncher/ObsidianLauncher/workflows/Android%20CI/badge.svg)](https://github.com/ObsidianLauncher/ObsidianLauncher/actions)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/ObsidianLauncher/ObsidianLauncher)](https://github.com/ObsidianLauncher/ObsidianLauncher/actions)
+[![Android CI](https://github.com/xssanjit-creator/AndroMineXS/workflows/Android%20CI/badge.svg)](https://github.com/xssanjit-creator/AndroMineXS/actions)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/xssanjit-creator/AndroMineXS)](https://github.com/xssanjit-creator/AndroMineXS/actions)
 [![Discord](https://img.shields.io/discord/1365346109131722753.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/VHdwQFsaGX)
 
 * ObsidianLauncher is a launcher, based on [PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher), that allows you to play Minecraft: Java Edition on your Android device!
